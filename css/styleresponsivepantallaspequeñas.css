@@ -129,10 +129,10 @@ body::-webkit-scrollbar-thumb {
 
 	.valores {
 		position: relative;
-		margin-left: -23%;
+		margin-left: -2%;
 		object-fit: cover;
 		bottom: -3rem;
-		width: 150%;
+		width: 100%;
 	}
 
 	/*  */

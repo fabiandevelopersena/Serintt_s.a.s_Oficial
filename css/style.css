@@ -12,7 +12,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -24,6 +23,7 @@ body {
 }
 html {
 	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -476,7 +476,6 @@ strong {
 	filter: drop-shadow(16px 16px 10px rgb(2, 2, 2));
 }
 
-
 .container {
 	display: flex;
 	justify-content: center;
@@ -614,7 +613,7 @@ button[type='submit']:hover {
 
 /* Estilos específicos para pantallas 4K */
 
-@media screen and (min-width: 3840px) and (min-height: 2160px) {
+@media screen and (min-width: 1900px) and (max-height: 3840px) {
 	@import url('/css/styleresponsivepantallas4k.css');
 }
 
